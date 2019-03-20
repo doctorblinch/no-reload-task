@@ -1,0 +1,17 @@
+How to set up the server
+
+1. create a folder for your project for example my-app
+2. copy "flask-backend" folder in my-app
+3. go back to my-app folder and use console command "npm install yarn"
+4. after that use console command "yarn add create-react-app react-scripts"
+5. next we need to create virtual environmet for python, for that we use "python -m venv venv" command
+6. activate your virtual environment via command ". venv/bin/activate"
+7. install python libraries we need via command "pip install -r requirements.txt"
+8. after that lets get back to our front end, go to my-app folder and execute "npm create-react-app react-frontend"
+9. go to new folder via "cd react-frontend" command
+10. run "npm run eject"
+11. copy 'config' and 'src' folders from the attachments to the react-frontend folder
+12. then run "yarn add @babel/plugin-transform-react-jsx"
+13. finally run "npm run build" 
+14. now everything is ready to start the flask server! Go to flask-backend folder and run "python main.py"
+15. now on localhost http://127.0.0.1:5000/ you will see running server
