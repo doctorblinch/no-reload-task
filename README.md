@@ -10,10 +10,14 @@ And installed python3 libraries:
 * flask-socketio
 * gensim
 ### How to use it?
-First you need to download main.py, models.py files and templates, static folders. Activate your virtual environmet and install all the libraries
-above,using comand:
 
-> python -m venv venv
+> git clone https://github.com/doctorblinch/no-reload-task/
+>
+> cd no-reload-task/
+>
+> git checkout using_socketio 
+>
+> python3 -m venv venv
 >
 > . venv/bin/activate
 >
