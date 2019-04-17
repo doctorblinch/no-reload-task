@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+  </head>
+  <body>
+
+    <ul id="messages"></ul>
+    <textarea cols="120" rows="6" type="text" id="myMessage"></textarea>
+    <br>
+    <button id="sendbutton">Send</button>
+
+
+    <p id="forUnswer"></p>
+
+  </body>
+</html>
