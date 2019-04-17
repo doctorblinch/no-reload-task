@@ -18,6 +18,8 @@ above,using comand:
 > . venv/bin/activate
 >
 > pip install -r requirements.txt
+>
+> python3 main.py
 
 After that the website will be activated and you will need to go over the link **http://127.0.0.1:5000/** where you will
 be able to see the app. There will be text area field in witch you input your text, after that you pres submit button and get all the sentences separately, now you are required to choose the base (main) sentence. After you choose - click on it, wait for a while, THE ALGORITHM IS SLOW! And finally you will get an ordered list of sorted sentences.
